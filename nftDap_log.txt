@@ -1,0 +1,75 @@
+INFO [11-23|22:37:07.032] Looking for peers                        peercount=1 tried=125 static=0
+INFO [11-23|22:37:12.774] Setting new local account                address=0xAd70df6Bd78734721F42CD8cCACe42b25D83Aa65
+INFO [11-23|22:37:12.775] Submitted contract creation              hash=0x2a1ccb68cfe73def4f379d8004bac380c86ef6584ac093dfa4a4ffc16d13cfe5 from=0xAd70df6Bd78734721F42CD8cCACe42b25D83Aa65 nonce=57 contract=0x9ae52f3F8F7B6C1eAf0D90c773933A7eb9E0C441 value=0
+
+
+dev@ubuntu:~/www/nftDap$ truffle migrate --reset
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+
+Starting migrations...
+======================
+> Network name:    'development'
+> Network id:      21004
+> Block gas limit: 8000000 (0x7a1200)
+
+
+1_initial_migration.js
+======================
+
+   Deploying 'Migrations'
+   ----------------------
+   > transaction hash:    0x2a1ccb68cfe73def4f379d8004bac380c86ef6584ac093dfa4a4ffc16d13cfe5
+   > Blocks: 0            Seconds: 312
+   > contract address:    0x9ae52f3F8F7B6C1eAf0D90c773933A7eb9E0C441
+   > block number:        200915
+   > block timestamp:     1637736128
+   > account:             0xAd70df6Bd78734721F42CD8cCACe42b25D83Aa65
+   > balance:             83066749710656290.057666964267521536
+   > gas used:            225453 (0x370ad)
+   > gas price:           1 gwei
+   > value sent:          0 ETH
+   > total cost:          0.000225453 ETH
+
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:         0.000225453 ETH
+
+
+2_deply_contracts.js
+====================
+
+   Deploying 'File'
+   ----------------
+   > transaction hash:    0xddf54d9961f15a50106e8e86051af6c81be8318b00d027843b771ce32e8a5b46
+   > Blocks: 1            Seconds: 12
+   > contract address:    0x4d9082b18745b44E6F760e53697805881E139615
+   > block number:        200917
+   > block timestamp:     1637736152
+   > account:             0xAd70df6Bd78734721F42CD8cCACe42b25D83Aa65
+   > balance:             83066749710656294.057666964267521536
+   > gas used:            2891772 (0x2c1ffc)
+   > gas price:           1 gwei
+   > value sent:          0 ETH
+   > total cost:          0.002891772 ETH
+
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:         0.002891772 ETH
+
+
+Summary
+=======
+> Total deployments:   2
+> Final cost:          0.003117225 ETH
+
+
+dev@ubuntu:~/www/nftDap$ 

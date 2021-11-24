@@ -40,3 +40,8 @@ In this Dapp, IPFS hash of NFT is set using the `set()` function that is called 
  - [Deploy and Sell your Own NFT Blog](https://blog.chain.link/build-deploy-and-sell-your-own-dynamic-nft/)
  - [Dapp University Tutorial on IPFS](https://www.youtube.com/watch?v=pTZVoqBUjvI)
  
+sudo apt purge nodejs 
+sudo apt purge npm
+sudo apt autoremove
+
+nvm install 16.13.0

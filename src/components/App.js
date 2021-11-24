@@ -113,7 +113,7 @@ class App extends Component {
           <div className="row">
             <main role="main" className="col-lg-12 d-flex text-center">
               <div className="content mr-auto ml-auto">
-                  <img src= { `https://ipfs.infura.io/ipfs/${this.state.fileHash}` } />
+                  <img src= { `https://ipfs.infura.io/ipfs/${this.state.fileHash}` } alt='{this.state.fileHash}' style={{ width: '300px', height: '200px',padding: 5}} />
                   <p> &nbsp; </p>
                 <h2> Change Picture </h2>
                 <form onSubmit = {this.onSubmit}>
